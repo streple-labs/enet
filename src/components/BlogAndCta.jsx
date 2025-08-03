@@ -23,7 +23,7 @@ export default function BlogAndCTA() {
   ];
 
   return (
-    <div className="px-6 py-20">
+    <div id='blog' className="px-6 py-20">
       {/* Blog Section */}
       <h2 className="text-3xl font-bold mb-10">Our latest blog</h2>
 

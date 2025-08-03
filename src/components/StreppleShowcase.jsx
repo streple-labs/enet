@@ -3,7 +3,7 @@ import React from 'react';
 const imageName = "streple.png"
 export default function StrepleShowcase() {
   return (
-    <section className="relative bg-[#002b4f] text-white overflow-hidden py-10 px-6">
+    <section id="products" className="relative bg-[#002b4f] text-white overflow-hidden py-10 px-6">
       <div className="max-w-5xl mx-auto text-center z-10 relative">
         {/* Label */}
         <button className="text-sm bg-[#1d3a59] px-4 py-1 rounded-full mb-4 font-medium">

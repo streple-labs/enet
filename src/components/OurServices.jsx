@@ -41,7 +41,7 @@ const services = [
 
 const OurServices = () => {
   return (
-    <section className="bg-white py-16 px-6 lg:px-12">
+    <section id="solutions" className="bg-white py-16 px-6 lg:px-12">
       <div className="max-w-7xl mx-auto text-center">
         
         {/* Tag */}

@@ -1,23 +1,24 @@
 const logos = [
-  "/images/logo1.png",
-  "/images/logo2.png",
-  "/images/logo3.png",
-  "/images/vector.png",
-  "/images/logo3b.png",
+  "/images/Logo1.png",
+  "/images/Logo2.png",
+  "/images/Logo3.png",
+  "/images/Vector.png",
+  "/images/Logo4.png",
 ];
 
 const Displays = () => {
   return (
     <div className="relative bg-[#002b4f] text-white overflow-hidden py-10">
-      {/* Scroll container */}
-      <div className="flex animate-scroll gap-30` whitespace-nowrap">
-        {logos.concat(logos).map((src, index) => (
-          <img
-            key={index}
-            src={src}
-            alt={`logo-${index}`}
-            className="h-12 w-auto object-contain"
-          />
+      {/* Outer container */}
+      <div className="flex w-max animate-scroll">
+        {[...logos, ...logos].map((src, index) => (
+          <div key={index} className="flex-shrink-0 px-10">
+            <img
+              src={src}
+              alt={`logo-${index}`}
+              className="h-12 w-auto object-contain"
+            />
+          </div>
         ))}
       </div>
 
@@ -28,11 +29,11 @@ const Displays = () => {
           100% { transform: translateX(-50%); }
         }
         .animate-scroll {
-          animation: scroll 15s linear infinite;
+          animation: scroll 20s linear infinite;
         }
       `}</style>
-    </div> 
+    </div>
   );
 };
- 
+
 export default Displays;
