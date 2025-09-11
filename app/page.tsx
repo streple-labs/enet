@@ -1,5 +1,6 @@
 import { geist_mono, montserrat } from "@/app/fonts";
 import CtaCard from "@/components/layout/cta-card";
+import HomeHeroBg from "@/public/homepage-hero-bg";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -152,10 +153,12 @@ const cybersecurityCards = [
 export default function page() {
   return (
     <main className="flex flex-col bg-[#F5F8FA]">
-      <section className="homepage-hero-bg relative overflow-hidden flex items-center justify-center w-full py-10 xl:py-40">
-        <div className="flex flex-col items-center justify-center gap-4 w-full mw px-8 lg:px-20">
-          {/* <Herosection /> */}
+      <section className="relative overflow-hidden flex items-center justify-center w-full py-10 xl:py-40 bg-[#002245]">
+        <div className="absolute flex items-center justify-center inset-0">
+          <HomeHeroBg />
+        </div>
 
+        <div className="flex flex-col items-center justify-center gap-4 w-full mw px-8 lg:px-20">
           <div className="py-2 px-3 rounded-4xl border border-[#00C85333] bg-white/[2%] backdrop-blur-xl drop-shadow-[0px_0px_5px] drop-shadow-[#4CCD994D]">
             <p
               className={`${geist_mono.className} text-sm leading-[130%] font-medium text-[#00C853]`}
