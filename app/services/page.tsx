@@ -81,7 +81,7 @@ export default function page() {
   return (
     <main className="flex flex-col">
       <section className="relative overflow-hidden flex items-center justify-center pt-10 pb-20 bg-[#002245]">
-        <div className="relative flex flex-col lg:flex-row gap-8 items-center w-full justify-between px-8 md:px-20 mw">
+        <div className="relative flex flex-col lg:flex-row gap-8 items-center w-full justify-between px-4 md:px-20 mw">
           <div className="flex flex-col gap-3 md:gap-5">
             <div className="py-1 px-4 md:py-[11px] md:px-11 w-fit flex items-center gap-2.5 md:gap-[15px] rounded-[20px] backdrop-blur-2xl bg-[#FFFFFF24]">
               <span>
