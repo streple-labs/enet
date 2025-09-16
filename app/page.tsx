@@ -158,7 +158,7 @@ export default function page() {
           <HomeHeroBg />
         </div>
 
-        <div className="flex flex-col items-center justify-center gap-4 w-full mw px-8 lg:px-20">
+        <div className="relative flex flex-col items-center justify-center gap-4 w-full mw px-8 lg:px-20">
           <div className="py-2 px-3 rounded-4xl border border-[#00C85333] bg-white/[2%] backdrop-blur-xl drop-shadow-[0px_0px_5px] drop-shadow-[#4CCD994D]">
             <p
               className={`${geist_mono.className} text-sm leading-[130%] font-medium text-[#00C853]`}
@@ -179,10 +179,10 @@ export default function page() {
               solutions, and DevSecOps.
             </p>
 
-            <div className="flex items-center flex-wrap gap-4 lg:gap-11">
+            <div className="flex items-center justify-center w-full max-sm:flex-wrap gap-4 lg:gap-10">
               <Link href={"#"}>
                 <button
-                  className="py-3 px-6 rounded-lg font-normal text-base/6 bg-[#004C99] w-[232px]"
+                  className="py-3 px-6 rounded-lg font-normal text-base/6 bg-[#004C99] w-full min-[400px]:w-[232px]"
                   title="get started"
                   aria-label="get started"
                 >
@@ -191,7 +191,7 @@ export default function page() {
               </Link>
               <Link href={"#"}>
                 <button
-                  className="py-3 px-6 rounded-lg font-semibold text-base/6 text-black bg-white w-[232px]"
+                  className="py-3 px-6 rounded-lg font-semibold text-base/6 text-black bg-white w-full min-[400px]:w-[232px]"
                   title="Book Audit"
                   aria-label="Book Audit"
                 >
@@ -281,8 +281,8 @@ export default function page() {
               [Why Enet technology]
             </h6>
 
-            <div className="w-full flex border-[0.5px] border-[#8C8D8F]">
-              <div className="flex flex-col gap-4 p-5 pr-3 border-r border-dashed border-r-[#8C8D8F]">
+            <div className="w-full flex flex-col sm:flex-row border-[0.5px] border-[#8C8D8F]">
+              <div className="flex flex-col gap-4 p-5 pr-3 max-sm:border-b sm:border-r border-dashed border-[#8C8D8F]">
                 <div>
                   <span>
                     <svg
@@ -316,7 +316,7 @@ export default function page() {
                   strategies that keep your business ahead of security threats.
                 </p>
               </div>
-              <div className="flex flex-col gap-4 p-5 pr-3 border-r border-dashed border-r-[#8C8D8F]">
+              <div className="flex flex-col gap-4 p-5 pr-3 max-sm:border-b sm:border-r border-dashed border-[#8C8D8F]">
                 <div>
                   <span>
                     <svg
@@ -379,7 +379,7 @@ export default function page() {
 
       <section className="flex flex-col items-center justify-center relative">
         <div className="flex items-center flex-col lg:flex-row mw p-8 md:px-20 lg:py-20 gap-8 lg:gap-10">
-          <div className="grid grid-cols-2 gap-2.5 sm:gap-4 md:gap-6 lg:gap-10 flex-1">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 sm:gap-4 md:gap-6 lg:gap-10 flex-1">
             {cybersecurityCards.map((card, i) => (
               <div
                 key={card.alt}
@@ -440,7 +440,7 @@ export default function page() {
 
             <Link href={"#"}>
               <button
-                className="py-3 px-6 rounded-lg font-normal text-base/6 bg-[#004C99] w-[232px]"
+                className="py-3 px-6 rounded-lg font-normal text-base/6 bg-[#004C99] w-full min-[400px]:w-[232px]"
                 title="Get started"
                 aria-label="Get started"
               >
@@ -467,11 +467,11 @@ export default function page() {
         </div>
 
         <div className="relative w-full mw px-8 lg:px-20">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-12 scrollbar-hide">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 scrollbar-hide">
             {Array.from({ length: 3 }).map((_, index) => (
               <div
                 key={index}
-                className="bg-[#FDFDFE] shadow-[0px_4px_26px_-4px] shadow-black/25 backdrop-blur-2x lg:backdrop-blur-[50px] rounded-xl flex flex-col pt-[92px] px-6 pb-6 lg:px-8 lg:pb-8 gap-[18px] lg:gap-6 relative"
+                className="bg-[#FDFDFE] shadow-[0px_4px_26px_-4px] shadow-black/25 backdrop-blur-2x lg:backdrop-blur-[50px] rounded-xl flex flex-col pt-[60px] md:pt-[92px] px-6 pb-6 lg:px-8 lg:pb-8 gap-[18px] lg:gap-6 relative"
               >
                 <div className="bg-[#004C99] size-[72px] rounded-full flex items-center justify-center absolute -top-[36px] left-8">
                   <svg

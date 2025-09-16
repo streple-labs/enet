@@ -3,7 +3,7 @@ export default function ServicePageHeroImg() {
     <svg
       viewBox="0 0 494 349"
       fill="none"
-      className="w-[315px] h-[222px] lg:w-[494px] lg:h-[349px]"
+      className="size-full max-w-[494px] max-h-[349px] lg:w-[494px] lg:h-[349px]"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
     >

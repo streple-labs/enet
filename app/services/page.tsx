@@ -80,89 +80,10 @@ const services = [
 export default function page() {
   return (
     <main className="flex flex-col">
-      <section className="relative overflow-hidden flex items-center justify-center pt-10 pb-20">
-        <span className="absolute bottom-0 left-0">
-          <svg
-            width="727"
-            height="503"
-            viewBox="0 0 727 503"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <g filter="url(#filter0_f_173_2432)">
-              <path
-                d="M335.454 528.846C427.342 476.404 357.304 299.287 213.73 365.572L164.435 386.974L4.49395 475.184C0.513238 500.299 14.018 597.455 112.492 613.101C131.731 616.158 324.64 535.018 335.454 528.846Z"
-                fill="#004C99"
-              />
-            </g>
-            <defs>
-              <filter
-                id="filter0_f_173_2432"
-                x="-346.109"
-                y="0.921448"
-                width="1072.97"
-                height="962.264"
-                filterUnits="userSpaceOnUse"
-                colorInterpolationFilters="sRGB"
-              >
-                <feFlood floodOpacity="0" result="BackgroundImageFix" />
-                <feBlend
-                  mode="normal"
-                  in="SourceGraphic"
-                  in2="BackgroundImageFix"
-                  result="shape"
-                />
-                <feGaussianBlur
-                  stdDeviation="175"
-                  result="effect1_foregroundBlur_173_2432"
-                />
-              </filter>
-            </defs>
-          </svg>
-        </span>
-        <span className="absolute top-0 left-1/2 -translate-x-1/2">
-          <svg
-            width="1074"
-            height="586"
-            viewBox="0 0 1074 586"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <g filter="url(#filter0_f_173_1906)">
-              <path
-                d="M682.259 150.846C774.148 98.4037 704.11 -78.7134 560.536 -12.4279L511.24 8.97431L351.3 97.1841C347.319 122.299 360.824 219.455 459.298 235.101C478.537 238.158 671.445 157.018 682.259 150.846Z"
-                fill="#004C99"
-              />
-            </g>
-            <defs>
-              <filter
-                id="filter0_f_173_1906"
-                x="0.696289"
-                y="-377.079"
-                width="1072.97"
-                height="962.264"
-                filterUnits="userSpaceOnUse"
-                colorInterpolationFilters="sRGB"
-              >
-                <feFlood floodOpacity="0" result="BackgroundImageFix" />
-                <feBlend
-                  mode="normal"
-                  in="SourceGraphic"
-                  in2="BackgroundImageFix"
-                  result="shape"
-                />
-                <feGaussianBlur
-                  stdDeviation="175"
-                  result="effect1_foregroundBlur_173_1906"
-                />
-              </filter>
-            </defs>
-          </svg>
-        </span>
-
-        <div className="relative flex flex-col lg:flex-row gap-8 lg:gap-0 items-center w-full justify-between px-8 md:px-20 mw">
+      <section className="relative overflow-hidden flex items-center justify-center pt-10 pb-20 bg-[#002245]">
+        <div className="relative flex flex-col lg:flex-row gap-8 items-center w-full justify-between px-8 md:px-20 mw">
           <div className="flex flex-col gap-3 md:gap-5">
-            <div className="mb-4 md:mb-10 py-1 px-4 md:py-[11px] md:px-11 w-fit flex items-center gap-2.5 md:gap-[15px] rounded-[20px] backdrop-blur-2xl bg-[#FFFFFF24]">
+            <div className="py-1 px-4 md:py-[11px] md:px-11 w-fit flex items-center gap-2.5 md:gap-[15px] rounded-[20px] backdrop-blur-2xl bg-[#FFFFFF24]">
               <span>
                 <svg
                   viewBox="0 0 19 24"
@@ -187,7 +108,7 @@ export default function page() {
               Empowering Your Digital Transformation
             </h1>
 
-            <p className="font-normal mt-4 text-sm/6 md:text-lg/[30px] text-[#EEEDFFCC]">
+            <p className="font-normal text-sm/6 md:text-lg/[30px] text-[#EEEDFFCC]">
               Enet Technologies delivers cybersecurity, cloud, and compliance
               solutions to help businesses innovate securely and grow
               confidently.
@@ -210,100 +131,21 @@ export default function page() {
         </div>
       </section>
 
-      <section className="relative overflow-hidden flex flex-col gap-5 md:gap-[30px] items-center justify-center w-full">
+      <section className="relative overflow-hidden flex flex-col gap-5 md:gap-[30px] items-center justify-center w-full bg-[#F5F8FA]">
         {services.map((service, i) => (
           <div
             key={i}
-            className="relative flex flex-col items-center justify-center w-full mw px-8 md:px-20"
+            className="relative flex flex-col items-center justify-center w-full mw px-4 md:px-20"
           >
-            <span className="absolute left-0 bottom-0">
-              <svg
-                width="658"
-                height="602"
-                viewBox="0 0 658 602"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g filter="url(#filter0_f_146_3165)">
-                  <path
-                    d="M266.259 528.846C358.148 476.404 288.11 299.287 144.536 365.572L95.2405 386.974L-64.7004 475.184C-68.6811 500.299 -55.1763 597.455 43.298 613.101C62.5365 616.158 255.445 535.018 266.259 528.846Z"
-                    fill="#004C99"
-                  />
-                </g>
-                <defs>
-                  <filter
-                    id="filter0_f_146_3165"
-                    x="-415.304"
-                    y="0.921509"
-                    width="1072.97"
-                    height="962.264"
-                    filterUnits="userSpaceOnUse"
-                    colorInterpolationFilters="sRGB"
-                  >
-                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
-                    <feBlend
-                      mode="normal"
-                      in="SourceGraphic"
-                      in2="BackgroundImageFix"
-                      result="shape"
-                    />
-                    <feGaussianBlur
-                      stdDeviation="175"
-                      result="effect1_foregroundBlur_146_3165"
-                    />
-                  </filter>
-                </defs>
-              </svg>
-            </span>
-            <span className="absolute right-0 bottom-0">
-              <svg
-                width="624"
-                height="731"
-                viewBox="0 0 624 731"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g filter="url(#filter0_f_146_3163)">
-                  <path
-                    d="M682.259 528.846C774.148 476.404 704.11 299.287 560.536 365.572L511.24 386.974L351.3 475.184C347.319 500.299 360.824 597.455 459.298 613.101C478.537 616.158 671.445 535.018 682.259 528.846Z"
-                    fill="#004C99"
-                  />
-                </g>
-                <defs>
-                  <filter
-                    id="filter0_f_146_3163"
-                    x="0.696289"
-                    y="0.921509"
-                    width="1072.97"
-                    height="962.264"
-                    filterUnits="userSpaceOnUse"
-                    colorInterpolationFilters="sRGB"
-                  >
-                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
-                    <feBlend
-                      mode="normal"
-                      in="SourceGraphic"
-                      in2="BackgroundImageFix"
-                      result="shape"
-                    />
-                    <feGaussianBlur
-                      stdDeviation="175"
-                      result="effect1_foregroundBlur_146_3163"
-                    />
-                  </filter>
-                </defs>
-              </svg>
-            </span>
-
             {i == 0 && (
               <div className="py-10 md:pt-20 flex flex-col gap-3 md:gap-6 max-w-4xl items-center justify-center text-center">
                 <h1
-                  className={`${montserrat.className} font-bold text-2xl/8 sm:text-3xl/9 md:text-5xl/14 lg:text-6xl xl:text-[66px]/[90px]`}
+                  className={`${montserrat.className} text-[#030E14] font-bold text-2xl/8 sm:text-3xl/9 md:text-5xl/14 lg:text-6xl xl:text-[66px]/[90px]`}
                 >
                   Our Services
                 </h1>
 
-                <p className="font-normal mt-4 text-sm/5 md:text-lg/[30px] text-[#EEEDFFCC]">
+                <p className="font-normal mt-4 text-sm/5 md:text-lg/[30px] text-[#333]">
                   At Enet Technologies, we deliver innovative, security-first
                   solutions designed to help your business stay protected,
                   compliant, and ready for the future.
@@ -316,30 +158,30 @@ export default function page() {
                 i % 2 ? "flex-col lg:flex-row-reverse" : "flex-col lg:flex-row"
               } gap-10 md:gap-20`}
             >
-              <div className="lg:w-1/2 flex flex-col gap-5">
-                <div className="space-y-4">
+              <div className="lg:w-1/2 flex flex-col gap-3 md:gap-5">
+                <div className="space-y-2 md:space-y-4">
                   <h4
-                    className={`${montserrat.className} font-bold text-2xl/8 sm:text-3xl/9 md:text-5xl/14 lg:text-[50px]/[63px]`}
+                    className={`${montserrat.className} font-bold text-2xl/8 sm:text-3xl/9 md:text-5xl/14 lg:text-[50px]/[63px] text-[#030E14]`}
                   >
                     {service.title}
                   </h4>
-                  <p className="text-xs/5 md:text-base/[26px] text-[#EEEDFFCC]">
+                  <p className="text-xs/5 md:text-base/[26px] text-[#333333]">
                     {service.desc}
                   </p>
                 </div>
-                <div className="space-y-[29px]">
+                <div className="space-y-5 md:space-y-[29px]">
                   <h6
-                    className={`${montserrat.className} font-bold text-sm/[26px] md:text-xl/[26px]`}
+                    className={`${montserrat.className} text-[#030E14] font-bold text-sm/[26px] md:text-xl/[26px]`}
                   >
                     Key Services;
                   </h6>
                   {service.services.map((item) => (
                     <div
                       key={item}
-                      className="bg-[#30393E73] border-[0.7px] border-[#EEEDFFCC] py-2 px-[22px] flex items-center gap-2.5 rounded-[20px] backdrop-blur-[50px]"
+                      className="bg-[#E2E2E273] border-[0.7px] border-[#333333] py-2 px-[22px] flex items-center gap-2.5 rounded-[20px] backdrop-blur-[50px]"
                     >
                       <span className="size-2 md:size-[13px] bg-[#004C99] rounded-full" />
-                      <p className="text-[10px]/4 md:text-base/[26px] font-bold">
+                      <p className="text-[10px]/4 md:text-base/[26px] font-bold text-[#030E14]">
                         {item}
                       </p>
                     </div>

@@ -27,7 +27,7 @@ export default function Footer() {
             tomorrow.
           </p>
 
-          <div className="flex items-center gap-6">
+          <div className="flex items-center gap-4 md:gap-6">
             <Link href={"#"}>
               <svg
                 viewBox="0 0 31 30"
@@ -78,7 +78,6 @@ export default function Footer() {
                   width="28.7823"
                   height="28.7823"
                   rx="5.53506"
-                  fill="#030E14"
                 />
                 <rect
                   x="1.00572"

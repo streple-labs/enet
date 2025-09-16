@@ -19,10 +19,10 @@ export default function page() {
               faster, and comply effortlessly with next-gen cybersecurity, cloud
               solutions, and DevSecOps.
             </p>
-            <div className="flex items-center flex-wrap gap-4 lg:gap-11">
+            <div className="flex items-center w-full flex-wrap gap-4 lg:gap-10">
               <Link href={"#"}>
                 <button
-                  className="py-3 px-6 rounded-lg font-normal text-base/6 bg-[#004C99] w-[232px]"
+                  className="py-3 px-6 rounded-lg font-normal text-base/6 bg-[#004C99] min-[400px]:w-[232px]"
                   title="get started"
                   aria-label="get started"
                 >
@@ -31,7 +31,7 @@ export default function page() {
               </Link>
               <Link href={"#"}>
                 <button
-                  className="py-3 px-6 rounded-lg font-semibold text-base/6 text-black bg-white w-[232px]"
+                  className="py-3 px-6 rounded-lg font-semibold text-base/6 text-black bg-white min-[400px]:w-[232px]"
                   title="Book Audit"
                   aria-label="Book Audit"
                 >
@@ -679,7 +679,7 @@ export default function page() {
       </section>
 
       <section className="relative flex items-center justify-center w-full">
-        <div className="mw px-8 lg:px-20 py-8 md:py-24 flex items-center justify-center w-full min-h-[400px] relative">
+        <div className="mw px-8 lg:px-20 py-8 md:py-24 flex items-center justify-center w-full min-h-[500px] md:min-h-[400px] relative">
           <div className="absolute max-w-[calc(100%-32px)] bg-[#004C99] left-1/2 -translate-x-1/2 -bottom-[60px] z-10 flex flex-col md:flex-row gap-10 items-center justify-between w-full overflow-hidden rounded-[19px] p-6 sm:p-8 md:p-10 lg:p-[61px]">
             <div className="absolute inset-0">
               <svg
@@ -764,7 +764,7 @@ export default function page() {
 
             <Link href={"#"} className="relative">
               <button
-                className="py-3 px-6 rounded-lg font-semibold text-base/6 text-[#004C99] bg-white w-[232px]"
+                className="py-3 px-6 rounded-lg font-semibold text-base/6 text-[#004C99] bg-white sm:min-[400px]:w-[232px]"
                 title="View More"
                 aria-label="View More"
               >
