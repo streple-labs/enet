@@ -5,7 +5,7 @@ export default function CtaCard() {
   return (
     <section className="relative flex items-center justify-center w-full bg-[#F5F8FA]">
       <div className="mw px-8 lg:px-20 py-8 md:py-24 flex items-center justify-center w-full min-h-[300px] md:min-h-[500px]">
-        <div className="absolute max-w-[calc(100%-32px)] left-1/2 -translate-x-1/2 -bottom-[60px] z-10 flex flex-col items-center w-full rounded-[19px] bg-[url('/cta-background.png')] bg-no-repeat bg-center p-4 max-sm:py-8 sm:p-8 md:p-10 lg:p-[61px]">
+        <div className="absolute max-w-[calc(100%-64px)] left-1/2 -translate-x-1/2 -bottom-[60px] z-10 flex flex-col items-center w-full rounded-[19px] bg-[url('/cta-background.png')] bg-no-repeat bg-center p-4 max-sm:py-8 sm:p-8 md:p-10 lg:p-[61px]">
           <div className="mb-4 md:mb-10 py-1 px-4 md:py-[11px] md:px-11 w-auto flex items-center gap-2.5 md:gap-[15px] rounded-[20px] backdrop-blur-2xl bg-white/[14%]">
             <span>
               <svg

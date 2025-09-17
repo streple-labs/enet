@@ -3116,7 +3116,7 @@ export default function ServicePageHeroImg() {
           gradientUnits="userSpaceOnUse"
         >
           <stop offset="0.39" stopColor="#3130A7" />
-          <stop offset="1" stopColor="#1BA4E5" stop-opacity="0.5" />
+          <stop offset="1" stopColor="#1BA4E5" stopOpacity="0.5" />
         </linearGradient>
         <linearGradient
           id="paint94_linear_173_1920"

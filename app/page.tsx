@@ -379,7 +379,7 @@ export default function page() {
 
       <section className="flex flex-col items-center justify-center relative">
         <div className="flex items-center flex-col lg:flex-row mw p-8 md:px-20 lg:py-20 gap-8 lg:gap-10">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 sm:gap-4 md:gap-6 lg:gap-10 flex-1">
+          <div className="grid grid-cols-1 min-[480px]:grid-cols-2 gap-2.5 sm:gap-4 md:gap-6 lg:gap-10 flex-1">
             {cybersecurityCards.map((card, i) => (
               <div
                 key={card.alt}
